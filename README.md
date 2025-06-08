@@ -19,9 +19,9 @@ The computer generates a random number between 1 and 1000, and you try to guess 
 ## 🚀 How to Run
 
 1. Ensure PostgreSQL is installed and running.
-1. Create the database: `psql --username=freecodecamp --dbname=postgres`
-1. Make the script executable: `chmod +x number_guess.sh`
-1. Run the game: `./number_guess.sh`
+1. Create the database: `psql --username=freecodecamp --dbname=postgres < number_guess.sql`.
+1. Make the script executable: `chmod +x number_guess.sh`.
+1. Run the game: `./number_guess.sh`.
 
 ## freeCodeCamp Requirements
 
