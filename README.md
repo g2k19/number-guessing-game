@@ -25,4 +25,4 @@ The computer generates a random number between 1 and 1000, and you try to guess 
 
 ## freeCodeCamp Requirements
 
-This project fulfills all freeCodeCamp requirements:
+This project fulfills all freeCodeCamp requirements.
