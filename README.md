@@ -1,4 +1,28 @@
-# fcc - "Number Guessing Game" Project
-This is just the repository needed for completing the fcc project. It contains the database with the tables created but no data in them as well as the script file to play the actual game.
+# 🎮 Number Guessing Game
 
-More information about the actual project can be found on [freeCodeCamp's website](https://www.freecodecamp.org) under the Relational Database section of the Cirriculum.
+A terminal-based number guessing game built with Bash scripting and PostgreSQL as part of the [**FreeCodeCamp Relational Database Certification**](https://www.freecodecamp.org/learn/relational-database/).
+
+## About
+
+The computer generates a random number between 1 and 1000, and you try to guess it. The computer provides hints whether your guess is too high or too low until you find the correct number. All game statistics and user data are stored in a PostgreSQL database.
+
+## Features
+
+- User registration and login system
+- Game history tracking
+- Best score recording
+
+## Tech Stack
+- PostgreSQL database
+- Bash shell environment
+  
+## 🚀 How to Run
+
+1. Ensure PostgreSQL is installed and running.
+1. Create the database: `psql --username=freecodecamp --dbname=postgres`
+1. Make the script executable: `chmod +x number_guess.sh`
+1. Run the game: `./number_guess.sh`
+
+## freeCodeCamp Requirements
+
+This project fulfills all freeCodeCamp requirements:
